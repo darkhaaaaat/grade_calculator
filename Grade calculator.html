@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
+    <title>Grade calculator</title>
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <p>Grades-Calculator</p>
+    </header>
+    <main>
+      <div class="inputs">
+        <div class="studentAbout">
+          <input id="studentName" type="text" placeholder="Students name..." />
+          <input id="goal" type="number" placeholder="Goal. e.g,. 75%" />
+        </div>
+        <input id="grade1" type="number" placeholder="Grade1" />
+        <input id="grade2" type="number" placeholder="Grade2" />
+        <input id="grade3" type="number" placeholder="Grade3" />
+        <input id="grade4" type="number" placeholder="Grade4" />
+        <input id="grade5" type="number" placeholder="Grade5" />
+        <button onclick="calculate()">Calculate</button>
+      </div>
+      <div class="output">
+        <p>Avarage:</p>
+        <p id="output" style="color: red"></p>
+      </div>
+
+      <script src="static/script.js"></script>
+    </main>
+  </body>
+</html>

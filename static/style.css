@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  background-color: antiquewhite;
+}
+header {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  height: 8vh;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputs {
+  width: 70%;
+  background-color: hsl(121, 65%, 87%);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.inputs input {
+  margin-bottom: 10px;
+}
+#studentName {
+  height: 5vh;
+}
+.inputs button {
+  background-color: green;
+  color: white;
+  padding: 7px 0px;
+  width: 20%;
+  margin-left: 40%;
+  cursor: pointer;
+}
+.studentAbout {
+  display: flex;
+}
+.studentAbout input {
+  width: 80%;
+}
+.inputs input[type="number"] {
+  height: 4vh;
+}
+.studentAbout input[type="text"] {
+  border: none;
+  background-color: transparent;
+  border-bottom: solid black;
+}
+
+.output {
+  display: flex;
+  font-size: x-large;
+}
+@media (max-width: 600px) {
+  .inputs button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 70px;
+    margin-left: 25%;
+  }
+  .inputs input[type="number"] {
+    height: 6vh;
+  }
+  .studentAbout input[type="number"] {
+    height: 5vh;
+    width: 35%;
+  }
+}
